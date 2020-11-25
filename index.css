@@ -1,0 +1,32 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  thead{
+      background-color: aqua;
+      color: black;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  caption{
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+
+  th,td{
+      padding: 10px;
+      text-align: center;
+  }
+  input[id = ecran], input[id = depense]{
+    width: 200px;
+    padding: 4px;
+
+  }
+  input[id = ecran]{
+    border: hidden;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: dimgrey;
+    width: 200px;
+}
